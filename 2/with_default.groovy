@@ -20,6 +20,9 @@ def people = [ "John Doe", "Jane Smith", "Bill Wane" ]
 
 def result = [:].withDefault { [] }
 
-people.each { person -> result[person[0]] << it }
+people.each { person -> 
+	def key = person[0]
+	result[key] << it 
+}
 
 println result
