@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Original idea by Andrzej Jasiñski
+// Original idea by Andrzej JasiÅ„ski
 // ----------------------------------------------------------------------------
 
 import groovy.transform.*
