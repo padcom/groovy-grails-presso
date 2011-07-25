@@ -1,10 +1,12 @@
 class DSL {
+	def generator = new Random()
+
 	void output(s) {
 		println s
 	}
 
 	int random(int max) {
-		new Random().nextInt(max)
+		generator.nextInt(max)
 	}
 
 	static execute(Closure program) {
