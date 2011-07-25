@@ -14,10 +14,6 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------
 
-class User {
-	String name
-}
-
 def users = [ 'user3', 'user2', 'user1' ]
 
 Collections.sort(users, { o1, o2 -> o1 <=> o2 } as Comparator)
