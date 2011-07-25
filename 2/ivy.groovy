@@ -23,7 +23,7 @@
 //
 // ----------------------------------------------------------------------------
 
-@Grab(group='com.google.inject', module='guice', version='3.0')
+@Grab('com.google.inject:guice:3.0')
 
 import com.google.inject.*
 import com.google.inject.matcher.*
