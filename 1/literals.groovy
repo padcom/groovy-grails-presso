@@ -5,4 +5,3 @@ println names
 println names.class
 println phones
 println phones.getClass()
-
