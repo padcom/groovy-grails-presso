@@ -1,5 +1,5 @@
 package myfirstapp
 
 class FooController{
- static scaffold = true
+	static scaffold = true
 }

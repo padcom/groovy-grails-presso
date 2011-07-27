@@ -16,7 +16,7 @@ class FooController {
     }
 
     def requestParams = {
-	render text: params
+		render text: params
     }
 
     def jsonList = {
